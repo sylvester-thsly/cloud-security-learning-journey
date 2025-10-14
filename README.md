@@ -118,8 +118,8 @@ commitment: 2-3 hours daily, 6 days weekly
 ### Week 1-2: AWS Basics
 - [x] Cloud computing concepts
 - [x] EC2 fundamentals
-- [ ] S3 storage
-- [ ] Project: Static website
+- [x] S3 storage
+- [x] Project: Static website
 
 ### Week 3-4: Core Services
 - [ ] Networking (VPC)
