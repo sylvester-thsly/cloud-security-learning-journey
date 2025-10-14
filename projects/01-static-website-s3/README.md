@@ -59,9 +59,7 @@ projects/
     ├── website-live.png
     ├── s3-bucket.png
     └── s3-config.png
-
----
-
+    
 ## 🚀 Implementation Steps
 
 ### 1. Created S3 Bucket
