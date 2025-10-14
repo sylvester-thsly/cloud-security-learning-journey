@@ -51,10 +51,6 @@ Professional portfolio website hosted on Amazon S3 using static website hosting.
 ![S3 Configuration](s3-config.png)
 ```
 
-
-
----
-
 ```
 projects/
 ├── README.md
