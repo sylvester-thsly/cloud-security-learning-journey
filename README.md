@@ -101,7 +101,7 @@ commitment: 2-3 hours daily, 6 days weekly
 
 **🔄 In Progress**
 - [ ] Module 3: Storage & Databases
-- [ ] First Project: S3 Website
+- [x] First Project: S3 Website
 - [ ] Week 1 Summary Post
 
 </td>
