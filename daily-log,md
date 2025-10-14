@@ -350,3 +350,84 @@ Users → Load Balancer → [EC2] [EC2] [EC2]
 ![Next](https://img.shields.io/badge/Next-First%20Project-00d4ff?style=for-the-badge)
 
 </div>
+
+
+
+
+
+## Day 3 - October 15, 2025
+
+### Time Investment
+**3 hours** | Status: ✅ Complete
+
+### What I Learned
+- S3 storage fundamentals
+- Static website hosting
+- Bucket policies and permissions
+- Making objects public
+- AWS S3 configuration
+
+### Hands-On Practice
+- [x] Completed Module 3: Storage & Databases
+- [x] Created S3 bucket
+- [x] Configured static website hosting
+- [x] Set up bucket policy for public access
+- [x] **Deployed first live AWS project!**
+
+### Project Built
+**Static Website on S3**
+- Built professional portfolio website
+- Deployed to AWS S3
+- Live URL: http://sylvester-portfolio-2025.s3-website.eu-north-1.amazonaws.com
+- Cost: $0.00 (free tier)
+
+### Challenges
+- Initial 404 error due to file naming
+- Learned importance of index.html naming convention
+- Understood bucket policies and public access
+
+### Next Steps
+- [ ] Update GitHub projects folder
+- [ ] Add project documentation
+- [ ] Screenshots for portfolio
+- [ ] LinkedIn post
+
+**Status:** ✅ Module 3 Complete | ✅ Project 1 LIVE!
+```
+
+---
+
+### **2. Document Your Project**
+
+**Create this file in GitHub:**
+
+`projects/01-static-website-s3/README.md`
+
+Add:
+- Project description
+- What you learned
+- Screenshots
+- The live URL
+- Technical details
+
+---
+
+### **3. This Weekend (Saturday)**
+
+**Write your Week 1 LinkedIn Post:**
+```
+Week 1 Complete! ☁️
+
+Just finished my first week of AWS learning and deployed my first cloud project!
+
+What I accomplished:
+✅ Completed 3 AWS modules (Fundamentals, EC2, S3)
+✅ Built and deployed a live website on AWS S3
+✅ 100% quiz accuracy on all modules
+✅ Set up professional GitHub documentation
+
+Live project: [Your S3 URL]
+
+This is just the beginning. 25 more weeks to go!
+
+#AWS #CloudComputing #LearningInPublic #100DaysOfCloud
