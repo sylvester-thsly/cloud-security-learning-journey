@@ -51,11 +51,10 @@ Professional portfolio website hosted on Amazon S3 using static website hosting.
 ![S3 Configuration](s3-config.png)
 ```
 
-4. Commit changes
+
 
 ---
 
-## **Your Final Structure:**
 ```
 projects/
 ├── README.md
