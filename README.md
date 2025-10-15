@@ -7,7 +7,7 @@
 [![AWS](https://img.shields.io/badge/AWS-Certified%20Track-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)](https://aws.amazon.com)
 [![Security](https://img.shields.io/badge/CompTIA-Security%2B-E21836?style=flat-square&logo=comptia&logoColor=white)](https://www.comptia.org/certifications/security)
 [![Status](https://img.shields.io/badge/Status-Week%201%2F26-00d4ff?style=flat-square)](https://github.com/sylvester-thsly/cloud-security-learning-journey)
-[![Days](https://img.shields.io/badge/Days-2%2F180-00d4ff?style=flat-square)](https://github.com/sylvester-thsly/cloud-security-learning-journey)
+[![Days](https://img.shields.io/badge/Days-3%2F180-00d4ff?style=flat-square)](https://github.com/sylvester-thsly/cloud-security-learning-journey)
 
 *Transforming curiosity into expertise through disciplined, documented practice*
 
@@ -67,7 +67,7 @@ commitment: 2-3 hours daily, 6 days weekly
 ### Overall Timeline
 
 ```
-███░░░░░░░░░░░░░░░░░░ 8% Complete (Week 1 of 26)
+████░░░░░░░░░░░░░░░░░ 12% Complete (Week 1 of 26)
 ```
 
 <details>
@@ -76,11 +76,11 @@ commitment: 2-3 hours daily, 6 days weekly
 | Metric | Progress |
 |--------|----------|
 | **Week** | 1 / 26 |
-| **Days Active** | 2 / 180 |
-| **Modules Complete** | 2 / 12 |
-| **Projects Built** | 0 / 10 |
-| **Hours Invested** | 5+ hours |
-| **Current Streak** | 🔥 2 days |
+| **Days Active** | 3 / 180 |
+| **Modules Complete** | 3 / 12 |
+| **Projects Built** | 1 / 10 |
+| **Hours Invested** | 8+ hours |
+| **Current Streak** | 🔥 3 days |
 
 </details>
 
@@ -93,15 +93,17 @@ commitment: 2-3 hours daily, 6 days weekly
 **✅ Completed**
 - [x] Module 1: Cloud Fundamentals
 - [x] Module 2: Compute (EC2)
+- [x] Module 3: Storage & Databases (S3)
 - [x] AWS Account Setup
 - [x] GitHub Documentation
+- [x] First AWS Project Deployed
 
 </td>
 <td width="50%">
 
 **🔄 In Progress**
-- [ ] Module 3: Storage & Databases
-- [x] First Project: S3 Website
+- [ ] Module 4: Networking
+- [ ] Project documentation & screenshots
 - [ ] Week 1 Summary Post
 
 </td>
@@ -119,7 +121,7 @@ commitment: 2-3 hours daily, 6 days weekly
 - [x] Cloud computing concepts
 - [x] EC2 fundamentals
 - [x] S3 storage
-- [x] Project: Static website
+- [x] Project: Static website ✅
 
 ### Week 3-4: Core Services
 - [ ] Networking (VPC)
@@ -167,8 +169,16 @@ commitment: 2-3 hours daily, 6 days weekly
 
 ## 🚀 Projects
 
-### Completed
-*Projects will appear here as they're built*
+### ✅ Completed Projects
+
+**1. Static Website on AWS S3**
+- **Status:** Live ✅
+- **Tech:** AWS S3, HTML/CSS, Static Website Hosting
+- **URL:** [View Live](http://sylvester-portfolio-2025.s3-website.eu-north-1.amazonaws.com)
+- **Week:** 1
+- **Cost:** $0.00 (Free Tier)
+- **Description:** Professional portfolio website demonstrating S3 bucket configuration, static hosting, and bucket policies
+- [View Documentation →](./projects/01-static-website-s3/)
 
 ---
 
@@ -179,11 +189,6 @@ commitment: 2-3 hours daily, 6 days weekly
 <td width="50%">
 
 #### 🌐 **Phase 1: Foundation**
-
-**1. Static Website on S3**
-- **Tech:** S3, CloudFront, Route53
-- **Timeline:** Week 2
-- **Status:** 📝 Planning
 
 **2. WordPress on EC2**
 - **Tech:** EC2, RDS, VPC, Security Groups
@@ -313,18 +318,30 @@ Every Sunday, I publish:
 ### Technical Goals
 
 - [ ] Pass 3 industry-recognized certifications
-- [ ] Build 10+ portfolio-worthy projects
+- [x] Build 1st portfolio-worthy project ✅
+- [ ] Build 10+ portfolio-worthy projects (1/10)
 - [ ] Gain hands-on experience with 20+ AWS services
 - [ ] Understand cloud architecture patterns
 - [ ] Master security fundamentals
 
 ### Professional Goals
 
-- [ ] Build professional GitHub portfolio
-- [ ] Establish LinkedIn presence
+- [x] Build professional GitHub portfolio ✅
+- [x] Establish LinkedIn presence ✅
 - [ ] Network with cloud professionals
 - [ ] Prepare for entry-level cloud roles
 - [ ] Target: Cloud Engineer position by Q2 2026
+
+---
+
+## 🏆 Achievements
+
+### Week 1 Highlights
+- ✅ Completed 3 AWS modules (25% of Cloud Practitioner curriculum)
+- ✅ 100% quiz accuracy across all modules
+- ✅ Deployed first live AWS project
+- ✅ Maintained daily learning streak
+- ✅ Established professional documentation system
 
 ---
 
@@ -334,7 +351,7 @@ Every Sunday, I publish:
 
 **Learning in Public | Open to Collaboration**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/sylvester-abekah-78b2bb36a/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/sylvester-kwabena-abekah-78b2bb36a/)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sylvestertech.sly@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/sylvester-thsly)
 
@@ -369,16 +386,3 @@ Feel free to use this as inspiration for your own learning journey!
 ---
 
 <div align="center">
-
-### 💭 Philosophy
-
-> *"The journey of a thousand miles begins with a single step."*  
-> — Lao Tzu
-
-**Status:** Learning Mode Activated 🚀  
-**Last Updated:** October 13, 2025  
-**Next Milestone:** First AWS Project
-
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=sylvester-thsly.cloud-security-learning-journey)
-
-</div>
