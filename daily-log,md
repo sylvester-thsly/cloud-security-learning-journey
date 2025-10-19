@@ -407,8 +407,6 @@ Users → Load Balancer → [EC2] [EC2] [EC2]
 
 
 
-
-
 ### **2. Document Your Project**
 
 **Create this file in GitHub:**
@@ -443,3 +441,43 @@ Live project: http://sylvester-portfolio-2025.s3-website.eu-north-1.amazonaws.co
 This is just the beginning. 25 more weeks to go!
 
 #AWS #CloudComputing #LearningInPublic #100DaysOfCloud
+
+
+## Day 4 - October 1, 2025
+
+### Time Investment
+**2-3 hours** | Status: ✅ Complete
+
+### What I Learned
+- **Module 4: Networking & Content Delivery**
+- VPC (Virtual Private Cloud) fundamentals
+- Subnets (public vs private)
+- Internet Gateways and Route Tables
+- Security Groups vs Network ACLs
+- CloudFront CDN basics
+- Route 53 DNS service
+
+### Key Concepts Mastered
+- How VPC isolates resources
+- Security layers (Security Groups, NACLs)
+- Public vs private subnet architecture
+- Content delivery with CloudFront
+
+### Hands-On Practice
+- [x] Completed Module 4 quiz
+- [x] Understanding VPC architecture
+- [x] Security group configuration concepts
+
+### Challenges
+- Understanding the difference between Security Groups and NACLs
+- VPC CIDR block concepts
+
+### Next Steps
+- [ ] Finish Module 4 completely
+- [ ] Start Module 5 (Databases)
+- [ ] Plan next project
+
+### Reflections
+Networking is more complex but essential for secure cloud architecture. Understanding how to properly isolate and secure resources.
+
+**Status:** ✅ Module 4 Nearly Complete | 4/12 Modules
