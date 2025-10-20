@@ -1,4 +1,32 @@
+<artifact identifier="complete-daily-log" type="application/vnd.ant.code" language="markdown" title="Complete Updated Daily Log - Day 5">
+# 📅 Daily Learning Log
 
+Documenting my 6-month journey to AWS & Cybersecurity mastery
+
+
+📊 Progress Overview
+Show Image
+Show Image
+Show Image
+Show Image
+
+<br/>
+🗓️ Day 1 - October 11, 2025
+⏱️ Time Investment
+2.5 hours | Status: ✅ Complete
+
+📚 What I Learned
+☁️ Cloud Computing Fundamentals
+
+Understanding what cloud computing is and its business value
+Why companies are migrating to the cloud
+
+🏗️ Deployment Models
+ModelDescriptionUse CaseOn-PremisesPhysical servers in your buildingComplete control, high costCloud-BasedEverything on AWSScalability, lower overheadHybridMix of bothGradual migration, compliance
+🌍 AWS Global Infrastructure
+yamlStructure:
+  Regions:
+    - Geographic locations (US East, Europe, Asia)
     - Contains multiple Availability Zones
     
   Availability Zones:
@@ -9,110 +37,74 @@ Benefits:
   - High availability ✅
   - Fault tolerance ✅
   - Low latency globally ✅
-```
+🔐 AWS Shared Responsibility Model
+AWS ResponsibilityCustomer ResponsibilityPhysical infrastructureData encryptionData centersApplicationsHardwareOperating system patchesNetwork equipmentUser access controlSecurity OF the cloudSecurity IN the cloud
+🖥️ Client-Server Model
 
-#### 🔐 AWS Shared Responsibility Model
+Client: Sends requests (browser, mobile app)
+Server: Processes and responds (AWS provides scalable servers)
+Cloud: Makes servers accessible over the internet
 
-| AWS Responsibility | Customer Responsibility |
-|-------------------|------------------------|
-| Physical infrastructure | Data encryption |
-| Data centers | Applications |
-| Hardware | Operating system patches |
-| Network equipment | User access control |
-| **Security OF the cloud** | **Security IN the cloud** |
 
-#### 🖥️ Client-Server Model
-- **Client:** Sends requests (browser, mobile app)
-- **Server:** Processes and responds (AWS provides scalable servers)
-- **Cloud:** Makes servers accessible over the internet
+🛠️ Hands-On Practice
 
----
+ Created AWS free tier account
+ Enabled MFA on root account
+ Set up $0 billing alerts
+ Received $100 in free credits (183 days)
+ Explored AWS Management Console
 
-### 🛠️ Hands-On Practice
 
-- [x] Created AWS free tier account
-- [x] Enabled MFA on root account
-- [x] Set up $0 billing alerts
-- [x] Received $100 in free credits (183 days)
-- [x] Explored AWS Management Console
+💪 Challenges Overcome
 
----
+Challenge: Confused about Regions vs Availability Zones
+Solution: Region = City, AZ = Neighborhood analogy helped!
 
-### 💪 Challenges Overcome
 
-> **Challenge:** Confused about Regions vs Availability Zones  
-> **Solution:** Region = City, AZ = Neighborhood analogy helped!
+Challenge: Understanding shared responsibility
+Solution: "AWS = Physical, Customer = Digital" mental model
 
-> **Challenge:** Understanding shared responsibility  
-> **Solution:** "AWS = Physical, Customer = Digital" mental model
 
----
-
-### 📝 Quiz Performance
-
-✅ Strong understanding: Deployment models, global infrastructure  
-✅ Solid grasp: Shared responsibility model  
+📝 Quiz Performance
+✅ Strong understanding: Deployment models, global infrastructure
+✅ Solid grasp: Shared responsibility model
 ⚠️ Review needed: Specific AZ configurations
+Score: 8/8 questions correct
 
-**Score:** 8/8 questions correct
+🎯 Tomorrow's Goals
 
----
+ Start Module 2: Compute in the Cloud
+ Learn about Amazon EC2
+ Understand EC2 instance types
+ Plan first hands-on EC2 deployment
 
-### 🎯 Tomorrow's Goals
 
-- [ ] Start Module 2: Compute in the Cloud
-- [ ] Learn about Amazon EC2
-- [ ] Understand EC2 instance types
-- [ ] Plan first hands-on EC2 deployment
+💭 Reflections
 
----
+"Cloud computing is essentially renting computer resources instead of owning physical servers. This fundamental shift allows companies to focus on innovation rather than infrastructure management."
 
-### 💭 Reflections
+Key Insight: The shared responsibility model is elegant - AWS handles the heavy lifting (physical), while customers maintain control over their data and applications.
+Feeling: Confident and excited to move into hands-on compute work!
 
-> *"Cloud computing is essentially renting computer resources instead of owning physical servers. This fundamental shift allows companies to focus on innovation rather than infrastructure management."*
+📚 Resources Used
 
-**Key Insight:** The shared responsibility model is elegant - AWS handles the heavy lifting (physical), while customers maintain control over their data and applications.
+🎓 AWS Skill Builder - Cloud Practitioner Essentials Module 1
+📖 AWS Documentation - Global Infrastructure
+✅ Module 1 Knowledge Check Quiz
 
-**Feeling:** Confident and excited to move into hands-on compute work!
-
----
-
-### 📚 Resources Used
-
-- 🎓 [AWS Skill Builder - Cloud Practitioner Essentials Module 1](https://skillbuilder.aws)
-- 📖 AWS Documentation - Global Infrastructure
-- ✅ Module 1 Knowledge Check Quiz
-
----
 
 <br/>
+🗓️ Day 2 - October 13, 2025
+⏱️ Time Investment
+2-3 hours | Status: ✅ Complete
 
-## 🗓️ Day 2 - October 13, 2025
-
-### ⏱️ Time Investment
-**2-3 hours** | Status: ✅ Complete
-
----
-
-### 📚 What I Learned
-
-#### 💻 Amazon EC2 (Elastic Compute Cloud)
+📚 What I Learned
+💻 Amazon EC2 (Elastic Compute Cloud)
 Virtual servers in the cloud that scale up or down based on demand
-
-#### 🎯 EC2 Instance Types
-
-| Type | Icon | Optimized For | Use Cases | Example |
-|------|------|---------------|-----------|---------|
-| **General Purpose** | ⚖️ | Balanced resources | Web servers, small DBs | T3, M5 |
-| **Compute Optimized** | 🚀 | High CPU performance | Scientific modeling, gaming | C5, C6 |
-| **Memory Optimized** | 🧠 | Large RAM | Big databases, caching | R5, X1 |
-| **Storage Optimized** | 💾 | High disk I/O | Data warehouses | I3, D2 |
-| **Accelerated Computing** | ⚡ | GPU/hardware accelerators | ML, graphics rendering | P3, G4 |
-
-#### 💰 EC2 Pricing Models
-
-```python
-pricing_models = {
+🎯 EC2 Instance Types
+TypeIconOptimized ForUse CasesExampleGeneral Purpose⚖️Balanced resourcesWeb servers, small DBsT3, M5Compute Optimized🚀High CPU performanceScientific modeling, gamingC5, C6Memory Optimized🧠Large RAMBig databases, cachingR5, X1Storage Optimized💾High disk I/OData warehousesI3, D2Accelerated Computing⚡GPU/hardware acceleratorsML, graphics renderingP3, G4
+💰 EC2 Pricing Models
+pythonpricing_models = {
     "On-Demand": {
         "use_when": "Unpredictable workloads",
         "commitment": "None",
@@ -152,7 +144,6 @@ pricing_models = {
 - Distributes traffic evenly across instances
 - Health checks on instances
 - Works with Auto Scaling automatically
-
 ```
 Traffic Flow:
 Users → Load Balancer → [EC2] [EC2] [EC2]
@@ -236,207 +227,411 @@ Users → Load Balancer → [EC2] [EC2] [EC2]
 
 <br/>
 
-## 📊 Week 1 Summary
+## 🗓️ Day 3 - October 15, 2025
 
-### 🎯 Achievements
-
-| Metric | Target | Actual | Status |
-|--------|--------|--------|--------|
-| Modules Completed | 2 | 2 | ✅ |
-| Hours Invested | 4-5 | 5+ | ✅ |
-| Quiz Performance | >80% | 100% | ✅ |
-| Hands-On Practice | AWS Account | Complete | ✅ |
-
-### 📈 Skills Acquired
-
-**Core Concepts:**
-- ✅ Cloud computing fundamentals
-- ✅ AWS global infrastructure
-- ✅ Shared responsibility model
-- ✅ EC2 instance types and pricing
-- ✅ Auto Scaling and Load Balancing
-- ✅ AMIs and multi-tenancy
-
-**Practical Skills:**
-- ✅ AWS account setup and security
-- ✅ Cost optimization strategies
-- ✅ Instance type selection for workloads
-- ✅ Understanding scalability patterns
-
-### 🚀 Week 2 Preview
-
-**Goals:**
-- Complete Module 3: Storage & Databases
-- Complete Module 4: Networking
-- Build Project 1: Static website on S3
-- Build Project 2: WordPress on EC2 (stretch goal)
-
-**Focus Areas:**
-- S3 storage service
-- Database options (RDS, DynamoDB)
-- VPC networking concepts
-- Hands-on deployments
-
----
-
-### 💡 Lessons Learned
-
-1. **Consistency > Intensity:** Daily 2-3 hours beats weekend cramming
-2. **Document Everything:** GitHub log keeps me accountable
-3. **Learn → Apply:** Need to build projects to truly understand
-4. **Ask Questions:** No shame in clarifying concepts
-5. **Stay Curious:** Every topic opens new questions
-
----
-
-### 🎉 Wins This Week
-
-- ✅ Completed 2 modules on schedule
-- ✅ 100% quiz accuracy
-- ✅ Maintained daily GitHub commits
-- ✅ Posted learning journey on LinkedIn
-- ✅ Set up professional profile and learning infrastructure
-
----
-
-<div align="center">
-
-**Week 1 Complete! 🔥**
-
-*1 week down, 25 to go. Building momentum!*
-
-![Streak](https://img.shields.io/badge/Streak-2%20Days-ff6b6b?style=for-the-badge)
-![Next](https://img.shields.io/badge/Next-First%20Project-00d4ff?style=for-the-badge)
-
-</div>
-
-
-
-
-
-## Day 3 - October 15, 2025
-
-### Time Investment
+### ⏱️ Time Investment
 **3 hours** | Status: ✅ Complete
 
-### What I Learned
-- S3 storage fundamentals
-- Static website hosting
-- Bucket policies and permissions
-- Making objects public
-- AWS S3 configuration
+---
 
-### Hands-On Practice
+### 📚 What I Learned
+
+#### 📦 Amazon S3 (Simple Storage Service)
+- Object storage for any amount of data
+- 99.999999999% (11 nines) durability
+- Storage classes for different use cases
+- Static website hosting capability
+
+#### 🏗️ S3 Bucket Configuration
+- Bucket naming conventions and rules
+- Bucket policies for public access
+- Static website hosting setup
+- Making objects publicly accessible
+
+#### 🔒 S3 Security & Permissions
+- Bucket policies (JSON-based)
+- Public access settings
+- Object-level permissions
+- IAM integration
+
+---
+
+### 🛠️ Hands-On Practice
+
 - [x] Completed Module 3: Storage & Databases
-- [x] Created S3 bucket
+- [x] Created S3 bucket: `sylvester-portfolio-2025`
 - [x] Configured static website hosting
 - [x] Set up bucket policy for public access
-- [x] **Deployed first live AWS project!**
+- [x] Uploaded HTML and image files
+- [x] **Deployed first live AWS project!** 🎉
 
-### Project Built
-**Static Website on S3**
+---
+
+### 🚀 Project Built
+
+**Static Website on AWS S3**
 - Built professional portfolio website
-- Deployed to AWS S3
+- Deployed to AWS S3 (eu-north-1 Stockholm)
 - Live URL: http://sylvester-portfolio-2025.s3-website.eu-north-1.amazonaws.com
-- Cost: $0.00 (free tier)
-
-### Challenges
-- Initial 404 error due to file naming
-- Learned importance of index.html naming convention
-- Understood bucket policies and public access
-
-### Next Steps
-- [ ] Update GitHub projects folder
-- [ ] Add project documentation
-- [ ] Screenshots for portfolio
-- [ ] LinkedIn post
-
-**Status:** ✅ Module 3 Complete | ✅ Project 1 LIVE!
-```
+- **Cost:** $0.00 (free tier)
+- **Features:** Responsive design, navigation, project showcase
 
 ---
 
+### 💪 Challenges Overcome
 
+> **Challenge:** 404 Error - Website not loading  
+> **Solution:** File was named `portfolio.html` instead of `index.html` - renamed and it worked!
 
+> **Challenge:** Understanding bucket policies  
+> **Solution:** JSON syntax for public read access, applied to all objects
 
-
-
-
-
-
-
-
-### **2. Document Your Project**
-
-**Create this file in GitHub:**
-
-`projects/01-static-website-s3/README.md`
-
-Add:
-- Project description
-- What you learned
-- Screenshots
-- The live URL
-- Technical details
+> **Challenge:** Files uploaded to folder instead of root  
+> **Solution:** Deleted folder, re-uploaded files directly to bucket root
 
 ---
 
-### **3. This Weekend (Saturday)**
+### 📝 Quiz Performance
 
-**Write your Week 1 LinkedIn Post:**
-```
-Week 1 Complete! ☁️
+✅ S3 concepts: Complete understanding  
+✅ Static hosting: Successfully deployed  
+✅ Bucket policies: Configured correctly  
+✅ Troubleshooting: Solved 404 issue independently
 
-Just finished my first week of AWS learning and deployed my first cloud project!
+**Score:** Module 3 quiz - 100% correct
 
-What I accomplished:
-✅ Completed 3 AWS modules (Fundamentals, EC2, S3)
-✅ Built and deployed a live website on AWS S3
-✅ 100% quiz accuracy on all modules
-✅ Set up professional GitHub documentation
+---
 
-Live project: http://sylvester-portfolio-2025.s3-website.eu-north-1.amazonaws.com/
+### 🎯 Next Steps
 
-This is just the beginning. 25 more weeks to go!
+- [x] Update GitHub with project documentation
+- [x] Add screenshots to project folder
+- [x] Document troubleshooting steps
+- [ ] Start Module 4: Networking
 
-#AWS #CloudComputing #LearningInPublic #100DaysOfCloud
+---
 
+### 💭 Reflections
 
-## Day 4 - October 1, 2025
+> *"Building the project taught me more than any tutorial could. Troubleshooting the 404 error forced me to understand how S3 static hosting actually works. That struggle was the best learning experience."*
 
-### Time Investment
+**Key Insight:** The importance of exact file naming conventions in AWS. `index.html` is not just a suggestion - it's required for static website hosting to work properly.
+
+**Feeling:** Accomplished! First real AWS project is LIVE and accessible worldwide. This is what cloud computing is all about!
+
+---
+
+### 📚 Resources Used
+
+- 🎓 [AWS Skill Builder - Cloud Practitioner Essentials Module 3](https://skillbuilder.aws)
+- 📖 AWS S3 Documentation - Static Website Hosting
+- 💡 Claude AI for troubleshooting guidance
+- ✅ Module 3 Knowledge Check Quiz
+
+---
+
+<br/>
+
+## 🗓️ Day 4 - October 16, 2025
+
+### ⏱️ Time Investment
 **2-3 hours** | Status: ✅ Complete
 
-### What I Learned
-- **Module 4: Networking & Content Delivery**
+---
+
+### 📚 What I Learned
+
+#### 🌐 Module 4: Networking & Content Delivery (Part 1)
 - VPC (Virtual Private Cloud) fundamentals
 - Subnets (public vs private)
 - Internet Gateways and Route Tables
 - Security Groups vs Network ACLs
-- CloudFront CDN basics
-- Route 53 DNS service
+- Network isolation and security layers
 
-### Key Concepts Mastered
-- How VPC isolates resources
-- Security layers (Security Groups, NACLs)
-- Public vs private subnet architecture
-- Content delivery with CloudFront
+#### 🔐 Security Layers
 
-### Hands-On Practice
-- [x] Completed Module 4 quiz
+| Layer | Type | Level | Stateful? |
+|-------|------|-------|-----------|
+| **Security Groups** | Virtual firewall | Instance-level | Yes ✅ |
+| **Network ACLs** | Network filter | Subnet-level | No ❌ |
+
+**Key Differences:**
+- Security Groups: Allow rules only, stateful (return traffic automatic)
+- NACLs: Allow + Deny rules, stateless (must configure both directions)
+
+#### 🏗️ VPC Architecture
+```
+VPC (Virtual Private Cloud)
+├── Public Subnet (internet-facing)
+│   ├── Internet Gateway
+│   └── EC2 instances with public IPs
+└── Private Subnet (internal only)
+    ├── Databases
+    └── Backend services
+```
+
+---
+
+### 🛠️ Hands-On Practice
+
+- [x] Completed Module 4 lessons (Part 1)
 - [x] Understanding VPC architecture
 - [x] Security group configuration concepts
+- [x] Public vs private subnet use cases
 
-### Challenges
-- Understanding the difference between Security Groups and NACLs
-- VPC CIDR block concepts
+---
 
-### Next Steps
-- [ ] Finish Module 4 completely
-- [ ] Start Module 5 (Databases)
-- [ ] Plan next project
+### 💪 Challenges Overcome
 
-### Reflections
-Networking is more complex but essential for secure cloud architecture. Understanding how to properly isolate and secure resources.
+> **Challenge:** Difference between Security Groups and NACLs  
+> **Solution:** Security Groups = instance firewall (stateful), NACLs = subnet firewall (stateless)
 
-**Status:** ✅ Module 4 Nearly Complete | 4/12 Modules
+> **Challenge:** CIDR block notation confusion  
+> **Solution:** Understood /16, /24 notation represents IP ranges
+
+---
+
+### 📝 Progress Update
+
+- Module 4 approximately 50% complete
+- VPC and security concepts understood
+- Ready to continue with CloudFront and Route 53
+
+---
+
+### 🎯 Next Steps
+
+- [ ] Complete Module 4: CloudFront, Route 53, Global Infrastructure
+- [ ] Finish Module 4 quiz
+- [ ] Start Module 5: Databases
+
+---
+
+### 💭 Reflections
+
+> *"Networking is more complex but essential for secure cloud architecture. Understanding how to properly isolate and secure resources using multiple layers (Security Groups + NACLs) is critical for production environments."*
+
+**Key Insight:** Security is layered. Never rely on a single security mechanism. Defense in depth matters.
+
+---
+
+### 📚 Resources Used
+
+- 🎓 [AWS Skill Builder - Cloud Practitioner Essentials Module 4](https://skillbuilder.aws)
+- 📖 AWS VPC Documentation
+- ✅ Module 4 lessons in progress
+
+---
+
+<br/>
+
+## 🗓️ Day 5 - October 20, 2025
+
+### ⏱️ Time Investment
+**2.5 hours** | Status: ✅ Complete
+
+---
+
+### 📚 What I Learned
+
+#### 🌍 Module 4: Networking & Content Delivery - COMPLETE! ✅
+
+**AWS Global Infrastructure:**
+- Regions: Geographic locations (30+ worldwide)
+- Availability Zones: Separate data centers within regions (3+ per region)
+- Edge Locations: 400+ locations for caching content globally
+
+**Relationship:**
+```
+AWS Global Infrastructure
+    ↓
+🗺️ Regions (e.g., us-east-1, eu-central-1)
+    ↓
+🏢 Availability Zones (AZ-1, AZ-2, AZ-3)
+
+📍 Edge Locations (separate network for caching)
+⚡ CloudFront (Content Delivery Network)
+
+Caches content at edge locations
+Reduces latency for global users
+HTTPS support
+DDoS protection with AWS Shield
+
+🔧 AWS CloudFormation (Infrastructure as Code)
+Key Features:
+
+Model infrastructure using code (JSON/YAML)
+Automate provisioning
+Consistent and repeatable deployments
+Reduce manual errors
+Version control for infrastructure
+
+Benefits:
+yamlWithout CloudFormation:
+  - Manual deployment: 2 hours per region
+  - Human errors likely
+  - Inconsistent configurations
+  - Hard to replicate
+
+With CloudFormation:
+  - Write template once: 30 minutes
+  - Deploy anywhere: 5 minutes per region
+  - Zero errors
+  - Perfectly consistent
+  - Easy to version control
+🎯 AWS Region Selection Factors
+The 4 C-P-F-P Factors:
+
+Compliance - Legal/regulatory requirements
+Proximity - Close to customers = lower latency
+Feature availability - Not all services in all regions
+Pricing - Costs vary by region
+
+
+🛠️ Hands-On Practice
+
+ Completed all Module 4 lessons
+ Module 4 quiz: 100% accuracy ✅
+ Understanding global infrastructure design
+ CloudFormation concepts and IaC benefits
+ Edge locations and content delivery
+
+
+💪 Challenges Overcome
+
+Challenge: Understanding relationship between Regions, AZs, and Edge Locations
+Solution: Realized edge locations are a separate network for caching, not inside regions
+
+
+Challenge: CloudFormation vs manual deployment benefits
+Solution: Understood automation, consistency, and error reduction are key advantages
+
+
+Challenge: When to use which region
+Solution: Memorized C-P-F-P framework (Compliance, Proximity, Features, Pricing)
+
+
+📝 Quiz Performance
+Module 4 Final Quiz:
+✅ All questions correct - 100% accuracy
+✅ Global infrastructure: Perfect understanding
+✅ CloudFormation: Clear on IaC benefits
+✅ Edge locations: Understood caching concept
+✅ Region selection: Applied C-P-F-P framework
+
+⏱️ Time Since Start
+Overall Progress:
+
+Days since start: 10 days (Oct 11 - Oct 20)
+Active learning days: 5 days
+Rest days: 5 days (healthy breaks for consolidation)
+Modules completed: 4/12 (33%)
+Projects deployed: 1 (S3 static website)
+
+
+🎯 Next Steps
+
+ Start Module 5: Databases (RDS, DynamoDB)
+ Learn database types and use cases
+ Consider mini-project: Add CloudFront to S3 website
+ Week 2 summary and reflection
+ LinkedIn progress update
+
+
+💭 Reflections
+
+"Module 4 was about understanding AWS at global scale and the power of automation. CloudFormation's Infrastructure as Code approach is elegant - treating infrastructure like software means version control, testing, and consistent deployments. The edge location network is impressive - 400+ locations ensuring low latency worldwide."
+
+Key Insight: Taking breaks between learning days helped consolidate knowledge. The concepts stuck better because I gave my brain time to process. Consistency matters more than cramming every single day.
+Biggest Takeaway: Infrastructure as Code (IaC) is not optional for serious cloud work. Manual deployments don't scale. CloudFormation makes infrastructure reproducible, testable, and maintainable.
+Feeling: Confident with networking fundamentals. Ready to dive into databases next. The 33% completion milestone feels significant - I'm building real cloud architecture knowledge!
+
+📚 Resources Used
+
+🎓 AWS Skill Builder - Cloud Practitioner Essentials Module 4
+📖 AWS CloudFormation Documentation
+📖 AWS Global Infrastructure Overview
+💡 Claude AI for concept clarification
+✅ Module 4 Knowledge Check Quiz - 100%
+
+
+Status: ✅ Module 4 Complete! | 4/12 Modules (33%) | 5 Active Learning Days
+
+<br/>
+📊 Week 1-2 Summary
+🎯 Achievements
+MetricTargetActualStatusModules Completed44✅Hours Invested10-1212+✅Quiz Performance>80%100%✅Projects Deployed11✅Active Days75⚠️
+📈 Skills Acquired
+Core Concepts:
+
+✅ Cloud computing fundamentals
+✅ AWS global infrastructure (Regions, AZs, Edge Locations)
+✅ Shared responsibility model
+✅ EC2 instance types and pricing models
+✅ Auto Scaling and Load Balancing
+✅ S3 storage and static website hosting
+✅ VPC networking and security layers
+✅ Infrastructure as Code with CloudFormation
+✅ Content delivery with CloudFront
+
+Practical Skills:
+
+✅ AWS account setup and security (MFA, billing alerts)
+✅ S3 bucket configuration and static hosting
+✅ Deploying live websites on AWS
+✅ Troubleshooting (404 errors, bucket policies)
+✅ Cost optimization strategies
+✅ Documentation and GitHub workflow
+
+🚀 Week 3 Preview
+Goals:
+
+Complete Module 5: Databases (RDS, DynamoDB)
+Complete Module 6: Security & Monitoring
+Mini-project: Add CloudFront CDN to S3 website
+Consider: Start planning WordPress on EC2 project
+
+Focus Areas:
+
+Database types and use cases
+When to use RDS vs DynamoDB
+IAM deep dive
+Security best practices
+Monitoring with CloudWatch
+
+
+💡 Lessons Learned
+
+Quality > Quantity: 5 focused days beat 10 rushed days
+Breaks Matter: Rest days help consolidate learning
+Troubleshooting = Learning: The 404 error taught me more than tutorials
+Documentation Works: GitHub log keeps me accountable and motivated
+Build While Learning: Projects make concepts stick
+100% Quiz Accuracy: Proves I'm understanding, not just memorizing
+
+
+🎉 Wins So Far
+
+✅ 4 modules completed (33% of Cloud Practitioner)
+✅ 100% quiz accuracy across ALL modules
+✅ First live AWS project deployed and documented
+✅ Maintained GitHub daily log discipline
+✅ Professional portfolio and learning infrastructure
+✅ Understanding global infrastructure and IaC
+
+
+🔥 Current Streak
+Active Learning Days: 5 days
+Overall Calendar Days: 10 days
+Consistency: Taking strategic breaks for consolidation
+
+<div align="center">
+Week 1-2 Complete! 🔥
+4 modules down, 8 to go. 33% progress!
+Show Image
+Show Image
+Show Image
+</div>
+</artifact>
+Copy everything from the artifact above! ✅
+Commit message: "Day 5 (Oct 20): Module 4 complete - Global Infrastructure & IaC (33% progress)"
