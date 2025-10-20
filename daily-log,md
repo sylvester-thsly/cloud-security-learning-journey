@@ -1,32 +1,4 @@
 
-
-<br/>
-
-## 🗓️ Day 1 - October 11, 2025
-
-### ⏱️ Time Investment
-**2.5 hours** | Status: ✅ Complete
-
----
-
-### 📚 What I Learned
-
-#### ☁️ Cloud Computing Fundamentals
-- Understanding what cloud computing is and its business value
-- Why companies are migrating to the cloud
-
-#### 🏗️ Deployment Models
-| Model | Description | Use Case |
-|-------|-------------|----------|
-| **On-Premises** | Physical servers in your building | Complete control, high cost |
-| **Cloud-Based** | Everything on AWS | Scalability, lower overhead |
-| **Hybrid** | Mix of both | Gradual migration, compliance |
-
-#### 🌍 AWS Global Infrastructure
-```yaml
-Structure:
-  Regions:
-    - Geographic locations (US East, Europe, Asia)
     - Contains multiple Availability Zones
     
   Availability Zones:
