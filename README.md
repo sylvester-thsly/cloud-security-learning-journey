@@ -67,7 +67,7 @@ commitment: 2-3 hours daily, 6 days weekly
 ### Overall Timeline
 
 ```
-████░░░░░░░░░░░░░░░░░ 12% Complete (Week 1 of 26)
+██████░░░░░░░░░░░░░░░░░ 20% Complete (Week 1 of 26)
 ```
 
 <details>
